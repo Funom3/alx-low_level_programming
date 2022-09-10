@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	char ch;
+	char ch, e, q;
 
-	for (ch = 'a'; ch = 'z'; ch++)
+	e = 'e';
+	q = 'q';
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	 	if (ch == 'q' || ch == 'e')
-		{
-			continue;
-		}
-		putchar(ch);
+	 	if (ch != 'e' && ch !='q')
+			putchar(ch);
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0)
 }
