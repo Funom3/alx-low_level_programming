@@ -1,14 +1,15 @@
 #include <stdio.h>
-/**main - Entry point
+/**
+ * main - Entry point
  *
- * Return: Always returns 0
+ * Return: always 0
  */
 int main(void)
 {
-	int ch;
+	int i;
 
-	for (ch = 0; ch < 10; ch++)
-		printf("%d", ch);
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
 		printf("\n");
 
 	return (0);
