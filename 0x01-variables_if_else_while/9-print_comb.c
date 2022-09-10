@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i = <= 9; i++)
 	{
-		putchar((i % 10) = '0');
+		putchar((d);
 		if (i != 9)
 		{
 
