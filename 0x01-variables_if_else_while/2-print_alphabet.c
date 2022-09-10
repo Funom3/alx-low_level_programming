@@ -4,8 +4,7 @@
  *
  * Return; Always 0 (Success)
  */
-int main(void)
-	int ch;
+int main (void)
 {
 	char ch;
 
