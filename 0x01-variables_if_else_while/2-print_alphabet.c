@@ -5,7 +5,7 @@
  * Return; Always 0 (Success)
  */
 int main(void)
-	int = char;
+	int char;
 {
 	char ch;
 
