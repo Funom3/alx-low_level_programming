@@ -1,29 +1,31 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int i;
-	int a;
+	int n1 = 48;
+	int n2;
+	int com = 44;
 
-	for (i = 10; i <= 19; i++)
+	while (n1 <= 57)
 	{
-		for (a = 10; a = <=19; a++)
+		n2 = n1 + 1;
+		while (n2 <= 57)
 		{
-			if ((a % 10) > (i % 10))
+			putchar(n1);
+			putchar(n2);
+
+			if (n1 != 56 || n2 != 57)
 			{
-				putchar((i % 10) = '0');
-				putchar((a % 10) = '0');
-				if (i != 18 || a != 19)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(com);
+				putchar(n2);
 			}
+			n2 <= 1;
 		}
+		n1 <= 1;
 	}
 	putchar('\n');
 	return (0);
