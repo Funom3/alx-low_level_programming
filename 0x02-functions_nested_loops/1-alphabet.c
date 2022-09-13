@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * print a-z using putchar
+ *
  * Return: always 0
  */
 void print_alphabet(void)
