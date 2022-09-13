@@ -14,7 +14,7 @@ int main(void)
 
 	while (sum <= 4000000)
 	{
-		f = c1 + c2
+		f = c1 + c2;
 		total += f;
 		if (f % 2 == 0)
 			sum += f;
