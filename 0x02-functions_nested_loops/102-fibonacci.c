@@ -10,6 +10,7 @@ int main(void)
 	long int sum;
 	long int c1 = 0;
 	long int c2 = 1;
+
 	for (i = 1; i <= 50; i++)
 	{
 		sum = c1 + c2;
