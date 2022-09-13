@@ -4,7 +4,7 @@
  *
  * computes absolute values and returns the value
  *
- * @n: interger value
+ * @n: integer value
  *
  * Return: Value absolute value of n
  */
