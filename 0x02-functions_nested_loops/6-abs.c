@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - Begin here
+ * _abs - Begin here
  *
  * computes absolute values and returns the value
  *
