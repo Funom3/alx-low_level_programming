@@ -6,7 +6,7 @@
  *
  * @n: interger value
  *
- * Return: absolute value of n
+ * Return: Value absolute value of n
  */
 int _abs(int n)
 {
