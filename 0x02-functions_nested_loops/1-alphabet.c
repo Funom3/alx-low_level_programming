@@ -4,7 +4,7 @@
  *
  * print a-z using putchar
  *
- * Return: always 0
+ * Return: always 0 (true)
  */
 void print_alphabet(void)
 {
