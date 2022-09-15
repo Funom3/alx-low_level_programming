@@ -2,7 +2,7 @@
 /**
  * main - highest prime numbers
  *
- * Return: always 0
+ * Return: value 0
  */
 int main(void)
 {
