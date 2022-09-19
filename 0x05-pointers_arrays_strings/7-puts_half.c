@@ -3,7 +3,7 @@
  * puts_half - update value
  *
  * @str: value to evaluate
- * 
+ *
  * Return: void
  */
 void puts_half(char *str)
