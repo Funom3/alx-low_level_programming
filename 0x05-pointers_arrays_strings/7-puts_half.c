@@ -6,11 +6,28 @@
  * 
  * Return: void
  */
-int main(void)
+void puts_half(char *str)
 {
-	char *str;
+	int len = 0;
+	char *ch = str;
+	int n;
 
-	str = "0123456789";
-	puts_half(str);
-	return (0);
+	while (*ch != '\0')
+	{
+		ch++;
+		len++;
+	}
+	if (len % 2 == 0)
+	{
+		n = len / 2;
+	}
+	else
+	{
+		n = (len + 1) / 2;
+	}
+	for ( ; n < len ; n++)
+	{
+		putchar(*(str + n));
+	}
+	putchar('\n');
 }
