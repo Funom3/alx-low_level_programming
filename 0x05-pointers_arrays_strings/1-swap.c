@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * swap_int - use pointer to change value location in a memory
- * @n: pointer to int a location
+ * @a: pointer to int a location
  * @b: pointer to int b location
  * Return: void
  */
