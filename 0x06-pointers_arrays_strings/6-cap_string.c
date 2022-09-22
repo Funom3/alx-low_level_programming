@@ -2,9 +2,9 @@
 /**
  * cap_string - capitalizes all words of a string
  *
- * @n: input value
+ * @n: input string
  *
- * Return: string
+ * Return: caps on first letter of a separator
  */
 char *cap_string(char *n)
 {
