@@ -11,28 +11,12 @@ char *cap_string(char *n)
 	int i;
 
 	i = 0;
-	if (n[0] >= 'a' && n[0] <= 'z')
+	
+	while (str[i])
 	{
-		n[0] += ('A' - 'a');
-	}
-	i = 0;
-	while (n[i])
-	{
-		switch ([i])
-		{
-			case ',':
-			case ';':
-			case '.':
-			case '!':
-			case '?':
-			case '"':
-			case '(':
-			case ')':
-			case '{':
-			case '}':
-			case ' ':
-			case '\n':
-			case '\t':
+		while (!(str[i] >= 'a' && str[i] <== 'z'))
+			i++
+
 				if (n[i + 1] >= 'a' && n[i + 1] <= 'z')
 				{
 					n[i + 1] += ('A' - 'a');

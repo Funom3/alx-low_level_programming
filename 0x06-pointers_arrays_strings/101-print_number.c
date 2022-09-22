@@ -1,47 +1,30 @@
-#include "main.h"
-/**
- * print_number - convert integer to string
- *
- * @n: input integer
- *
- * Return: void
- */
-void print_number(int n)
+#include <stdio.h>
+
+int main(void)
 {
-	int i;
-	int len;
-	int j;
-	int mux;
-	int out;
+	int n;
+	int a[5];
+	int *p;
 
-	len = 0;
-	if (n < 0)
-	{
-		_putchar('-');
-		n *= -1;
-	}
-	i = n;
-	if (n == 0)
-	{
-		_putchar('0');
-	}
-	else
-	{
-		while (i / 10 != 0)
-		{
-			len++;
-			i /= 10;
-		}
-		mux = 1;
+	a[2] = 1024;
+	p = &n;
+	/**
+	 * write your lie of code here...
+	 *
+	 * Remember:
+	 * 
+	 * - you are not allowed to use a
+	 *
+	 * - you are not allowed to modify p
+	 *
+	 * - only one statement
+	 *
+	 * - you are not allowed to code anything else than this line of code
+	 */
+	*(p + 5) = 98;
+	/* ...so this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
 
-		for (j = 1; j <= len; j++)
-			mux *= 10;
-		for (j = 0; j <= len; j++)
-		{
-			out = n / mux;
-			_putchar(out + '0');
-			n -= (mux * out);
-			mux /= 10;
-		}
-	}
+	return (0);
 }
+
