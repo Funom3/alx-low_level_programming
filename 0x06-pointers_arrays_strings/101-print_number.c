@@ -2,7 +2,7 @@
 /**
  * print_number - convert integer to string
  *
- * @n: integer value
+ * @n: input integer
  *
  * Return: void
  */
@@ -36,7 +36,6 @@ void print_number(int n)
 
 		for (j = 1; j <= len; j++)
 			mux *= 10;
-
 		for (j = 0; j <= len; j++)
 		{
 			out = n / mux;
