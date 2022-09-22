@@ -37,7 +37,7 @@ void print_number(int n)
 			mux *= 10;
 		for (j = 0; j <= len; j++)
 		{
-			out - n / mux;
+			out = n / mux;
 			_putchar(out + '0');
 			n -= (mux * out);
 			mux /= 10;
