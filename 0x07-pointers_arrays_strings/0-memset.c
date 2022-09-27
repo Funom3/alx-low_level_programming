@@ -1,23 +1,23 @@
 #include "main.h"
 /**
- * *_memset - fills n bytes of memory pointed by s with the byte b
+ * _memset - fills n bytes of the memory pointed by s 
+ * with the byte b
  *
- * @s: pointer to array location
+ * @s: pointer to the array location
  *
- * @b: constant byte to replace sorted date
+ * @b: constant byte to replaced sorted date
  *
- * @n: number of byte replaced
+ * @n: number of bytes to be replaced
  *
- * Return: pointer to s memory
+ * Return: pointer to memory s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n; i++);
 	{
-		s[i] = b;
+		*(s + i) = b;
 	}
 	return (s);
 }
-
