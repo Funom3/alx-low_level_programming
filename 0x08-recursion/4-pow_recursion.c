@@ -9,7 +9,7 @@
  *
  * Return: 1 if success
  */
-int pow_recursion(int x, int y)
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 	{
