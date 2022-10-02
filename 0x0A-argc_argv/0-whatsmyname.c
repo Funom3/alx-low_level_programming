@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**main - prints the name of the programme
@@ -7,7 +6,7 @@
  *
  * @argv: array name
  *
- * Return: 0
+ * Return: success 0
  */
 int main(int argc, char *argv[])
 {
