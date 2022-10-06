@@ -5,9 +5,9 @@
  * string_nconcat - concatenantes two strings using a most
  * inputted bytes
  *
- * @s1: the string no 1.
+ * @s1: the string number one
  *
- * @s2: the string no. 2.
+ * @s2: the string number two
  *
  * @n: the maximum number of bytes
  *
