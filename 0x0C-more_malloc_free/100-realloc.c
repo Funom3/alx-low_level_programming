@@ -50,5 +50,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		*(ptr_copy + 1) = filler[i];
 	}
 	free(ptr);
-	return (filler);
+	return (ptr_copy);
 }
