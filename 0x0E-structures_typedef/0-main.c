@@ -4,6 +4,8 @@
 /**
  * main - check the code for the student
  *
+ * @struct: the typedef of the dog
+ *
  * Return: success 0
  */
 int main(void)
@@ -12,7 +14,7 @@ int main(void)
 
 	my_dog.name = "Poppy";
 	my_dog.age = 3.5;
-	my_dog.owner = "bob";
-	printf("my name is %s, and I am &1f :) - Woof!\n", my_dog.name, my_dog.age);
+	my_dog.owner = "Bob";
+	printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
 	return (0);
 }
