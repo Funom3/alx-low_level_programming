@@ -7,8 +7,6 @@
  * @separator: string to be printed between numbers
  *
  * @n: number of integers
- *
- * Return: NULL
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
