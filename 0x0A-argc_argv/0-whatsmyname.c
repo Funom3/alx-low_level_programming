@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/**main - prints the name of the programme
+/**
+ * main - prints the name of the programme
  *
  * @argc: number of command line
  *
@@ -10,6 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc * 0]);
+	printf("%s\n", argv[argc - 1]);
+
 	return (0);
 }
