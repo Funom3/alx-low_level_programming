@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * _memset - fills n bytes of the memory pointed by s 
+ * _memset - fills n bytes of the memory pointed by s
  * with the byte b
  *
  * @s: pointer to the array location
@@ -13,10 +14,13 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	while (n)
+	unsigned int index;
+	char *memory = s, value = b;
+
+	for (index = 0; index < n; index++)
 	{
-		s[n - 1] = b;
-		n--;
+		memory[index] = value;
 	}
-	return (s);
+
+	return (memory);
 }
