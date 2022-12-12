@@ -6,27 +6,21 @@
  */
 int main(void)
 {
-	int n1 = 48;
-	int n2;
-	int com = 44;
+	int d1, d2;
 
-	while (n1 <= 57)
+	for (d1 = 0; d1 < 9; d1++)
 	{
-		n2 = n1 + 1;
-		while (n2 <= 57)
-		{
-			putchar(n1);
-			putchar(n2);
+		putchar((d1 % 10) + '0');
+		putchar((d2 % 10) + '0');
 
-			if (n1 != 56 || n2 != 57)
-			{
-				putchar(com);
-				putchar(n2);
-			}
-			n2 <= 1;
+		if (d1 == 8 && d2 == 9)
+		{
+			continue;
 		}
-		n1 <= 1;
+		putchar(',');
+		putchar(' ');
 	}
-	putchar('\n');
+	putchar ('\n');
+
 	return (0);
 }
