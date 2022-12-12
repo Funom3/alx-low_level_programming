@@ -7,10 +7,10 @@
  *
  * @accept: the set of bytes to be searched for
  *
- * Return: if true to the pointer to be matched byte 
+ * Return: if true to the pointer to be matched byte
  * else NULL
  */
-char *strbrk(char *s, char *accept)
+char *_strbrk(char *s, char *accept)
 {
 	int i;
 
