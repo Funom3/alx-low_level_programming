@@ -27,7 +27,7 @@ void hash_table_print(const hash_table_t *ht)
 			counter++;
 			if (counter == 2)
 				printf(" ");
-			printf("'%s : %s'", arr[i]->key, arr[i]->value);
+			printf("'%s' : '%s'", arr[i]->key, arr[i]->value);
 			nodes = arr[i]->next;
 			if (nodes)
 			{
